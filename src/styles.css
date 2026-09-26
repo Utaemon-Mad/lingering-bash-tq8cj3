@@ -1,0 +1,14 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+/* Ocultar botón "Open Sandbox" de CodeSandbox */
+body > div[style*="position: fixed"][style*="bottom"],
+#csb-devtools,
+.csb-embed-button,
+div[class*="csb-"],
+iframe[title*="sandbox"] {
+  display: none !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
